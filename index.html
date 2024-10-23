@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha técnica</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="cabecalho">
+      <div class="titulo-container">  <!-- agrupa o título "FICHA TECNICA" e o botão "Escolha-Foto".-->
+        <h1 class="titulo">FICHA TECNICA</h1>
+        <div class="container">
+          <img class="escolha-foto" id="foto-perfil" src="IMG-20241023-WA0019.jpg" alt="Foto de perfil">
+          <select class="selecao" id="selecionar-foto">
+          <option value="IMG-20241023-WA0019.jpg">Avatar 1</option>
+          <option value="IMG-20241023-WA0021.jpg">Avatar 2</option>
+          <option value="IMG-20241023-WA0022.jpg">Avatar 3</option>
+          <option value="IMG-20241023-WA0020.jpg">Avatar 4</option>
+          <option value="IMG-20241023-WA0023.jpg">Avatar 5</option>
+          <option value="IMG-20241023-WA0024.jpg">Avatar 6</option>
+          </select>
+        </div>
+      </div>  
+    </div>  
+  </header>
+<section class="corpo">
+<main class="escopo">
+  <input type="text" name="nome_do_campo" class="colocar-nome" placeholder="Nome do grupo">
+</main>
+
+<section class="vida">
+  <table>
+    <thead>
+      <tr>
+        <th>VIDA</th>
+      </tr>
+    </thead>
+  <tbody>
+    <tr>
+      <td>10</td>
+      <td><button class="increment">+</button> <button class="decrement">-</button></td>
+    </tr>
+    </tbody>
+</table>
+</section>
+</section>
+
+<section class="escolha-doenca">
+  <div class="doenca-container">  
+    <p class="doencas">Diabete tipo 1</p>
+    <input type="checkbox" name="doenca[]" class="confirmar-doenca">  </div>
+  <div class="doenca-container">
+    <p class="doencas">Lúpus</p>
+    <input type="checkbox" name="doenca[]" class="confirmar-doenca">  </div>
+  <div class="doenca-container">
+    <p class="doencas">Tireoide de hashimoto</p>
+    <input type="checkbox" name="doenca[]" class="confirmar-doenca">  </div>
+  <div class="doenca-container">
+    <p class="doencas">Esclerose Múltiplha</p>
+    <input type="checkbox" name="doenca[]" class="confirmar-doenca">  </div>
+</section>
+
+  <script src="main.js"></script>
+</body>
+</html>
